@@ -3,7 +3,6 @@
 %bcond_without	javadoc		# don't build javadoc
 
 %define		srcname		xz
-%include	/usr/lib/rpm/macros.java
 Summary:	Java implementation of XZ data compression
 Name:		java-%{srcname}
 Version:	1.5
