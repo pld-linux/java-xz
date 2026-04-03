@@ -6,7 +6,7 @@
 Summary:	Java implementation of XZ data compression
 Name:		java-%{srcname}
 Version:	1.5
-Release:	1
+Release:	2
 License:	Public Domain
 Group:		Libraries/Java
 Source0:	http://tukaani.org/xz/xz-java-%{version}.zip
