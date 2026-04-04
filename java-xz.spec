@@ -2,20 +2,22 @@
 # Conditional build:
 %bcond_without	javadoc		# don't build javadoc
 
+%{?use_default_jdk:%use_default_jdk 8}
+
 %define		srcname		xz
 Summary:	Java implementation of XZ data compression
 Name:		java-%{srcname}
 Version:	1.5
-Release:	2
+Release:	3
 License:	Public Domain
 Group:		Libraries/Java
 Source0:	http://tukaani.org/xz/xz-java-%{version}.zip
 # Source0-md5:	9032553a25f41a277fa0bb56bcdb5f1e
 URL:		http://tukaani.org/xz/java.html
 BuildRequires:	ant
-BuildRequires:	jdk
+%buildrequires_jdk
 BuildRequires:	jpackage-utils
-BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	rpmbuild(macros) >= 1.556
 BuildRequires:	unzip
 Requires:	jpackage-utils
 Requires:	jre
