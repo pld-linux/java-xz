@@ -17,7 +17,7 @@ URL:		http://tukaani.org/xz/java.html
 BuildRequires:	ant
 %buildrequires_jdk
 BuildRequires:	jpackage-utils
-BuildRequires:	rpmbuild(macros) >= 1.556
+BuildRequires:	rpmbuild(macros) >= 2.021
 BuildRequires:	unzip
 Requires:	jpackage-utils
 BuildArch:	noarch
