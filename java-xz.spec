@@ -20,7 +20,6 @@ BuildRequires:	jpackage-utils
 BuildRequires:	rpmbuild(macros) >= 1.556
 BuildRequires:	unzip
 Requires:	jpackage-utils
-Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
